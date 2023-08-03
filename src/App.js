@@ -39,7 +39,7 @@ function App() {
       {userInput && (
         <ResultTable
           data={yearlyData}
-          initailInvestment={userInput["current-savings"]}
+          initialInvestment={userInput["current-savings"]}
         />
       )}
     </div>
